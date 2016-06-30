@@ -28,4 +28,10 @@ describe 'fizzbuzz' do
    it 'returns "0" when passed 0' do
       expect(fizzbuzz(0)).to eq 0
    end
+   it 'returns "19" when passed 19' do
+      expect(fizzbuzz(19)).to eq 19
+   end
+   it 'returns "1" when passed 1' do
+      expect(fizzbuzz(1)).to eq 1
+   end
 end
